@@ -1,4 +1,6 @@
-# Frontend Mentor - Tip calculator app
+## I like this project because that I still have to learn from this! This project is the first one that I'll do twice(but with React, Vite, Vitest next time). Love the JS calculations(I understand the logic, but can't come up with the code :) )
+
+## Frontend Mentor - Tip calculator app
 
 ![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
 
