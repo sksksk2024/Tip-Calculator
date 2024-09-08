@@ -1,3 +1,4 @@
+/* Be careful how you type :root, NOT root */
 :root {
   --strong-cyan: hsl(172, 67%, 45%);
   --vdkcyan: hsl(183, 100%, 15%);
@@ -11,7 +12,7 @@
 
 * {
   box-sizing: border-box;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 /* img {
@@ -42,7 +43,7 @@ section {
   padding: 10px;
   font-size: 22px; 
   text-align: right; /* Align text to the right */
-  background: var(--vltgraycyan) url('./images/icon-dollar.svg') no-repeat;
+  background-color: var(--vltgraycyan) url('./../images/icon-dollar.svg') no-repeat;
   background-position: 10px center; /* Adjust icon position */
   background-size: 12px; /* Adjust icon size */
   border: none;
@@ -55,7 +56,7 @@ input {
   font-size: 14px;
   width: 100%;
   text-align: center;
-  background: var(--vltgraycyan);
+  background-color: var(--vltgraycyan);
   border: none;
   border-radius: 8px;
 }
@@ -73,7 +74,7 @@ input-custom {
   padding: 10px;
   font-size: 22px; 
   text-align: right; /* Align text to the right */
-  background: var(--vltgraycyan) url('./images/icon-person.svg') no-repeat;
+  background: var(--vltgraycyan) url('./../images/icon-person.svg') no-repeat;
   background-position: 10px center; /* Adjust icon position */
   background-size: 12px; /* Adjust icon size */
   border: none;
@@ -91,7 +92,7 @@ html {
 }
 
 body {
-  background: var(--ltgraycyan);
+  background-color: var(--ltgraycyan);
   color: var(--dkgraycyan);
   font-size: 16px ;
   font-family: "Sofia Sans", sans-serif;
